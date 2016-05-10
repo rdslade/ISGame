@@ -25,6 +25,7 @@ public class Coin
         this.x = x;
         this.y = y;
         this.r = 25;
+        this.vely = 0;
     }
     /**
      * @param    g2 Graphcics2D object that draws the moon
@@ -36,9 +37,15 @@ public class Coin
         g2.draw(coin);
         g2.fill(coin);
     }
-    public void move()
+    public void moveAccel(double a)
     {
-        this.y+=.5;
+        this.y+=vely;
+        vely+=a;
+    }
+    public void moveConst(double v)
+    {
+        vely = v;
+        this.y+=vely;
     }
     public double getX()
     {

@@ -53,13 +53,14 @@ public class GameComponent extends JPanel
         p.move();
         this.coins = p.checkIfTouching(this.coins);
         counter++;
-        if (counter%200==0)
+        if (counter%250==0)
         {
             addC.run();
+            System.out.println(counter);
         }
         for (int i=0; i<this.coins.size(); i++)
         {
-            this.coins.get(i).move();
+            this.coins.get(i).moveAccel(.005); //good accelleration is .005; good velocity is .5
             this.coins.get(i).draw(g2);
         }
         this.scoreLabel.setText("<html><font color='BLUE'><font size=18> Score: "+new Integer(p.getScore()).toString());
