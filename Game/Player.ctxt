@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Player()
+comment0.text=\n\ Constructer\ for\ car\ that\ specifies\ the\ xPosition\ and\ yPosition\ of\ the\ recatangle\ and\ both\ the\ height\ and\ the\ width\n\ \n
+comment1.params=g2
+comment1.target=void\ draw(java.awt.Graphics2D)
+comment1.text=\n\ @param\ \ \ \ g2\ Graphcics2D\ object\ that\ draws\ the\ moon\n
+comment2.params=v
+comment2.target=void\ setVelX(double)
+comment3.params=v
+comment3.target=void\ setVelY(double)
+comment4.params=v
+comment4.target=void\ setSpeed(double)
+comment5.params=b
+comment5.target=void\ setPen(boolean)
+comment6.params=
+comment6.target=void\ move()
+comment7.params=coins
+comment7.target=java.util.ArrayList\ checkIfTouching(java.util.ArrayList)
+comment8.params=
+comment8.target=int\ getScore()
+comment9.params=s
+comment9.target=void\ setScore(int)
+numComments=10

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=panel
+comment0.target=GameComponent(javax.swing.JPanel)
+comment1.params=g
+comment1.target=void\ paintComponent(java.awt.Graphics)
+comment1.text=\n\ @param\ \ \ \ g\ Graphics\ object\ to\ create\ each\ object\ and\ draw\ it\ to\ the\ screen\n
+comment2.params=
+comment2.target=void\ gameOver()
+comment3.params=
+comment3.target=void\ reset()
+numComments=4
